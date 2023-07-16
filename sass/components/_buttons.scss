@@ -1,0 +1,63 @@
+button {
+  display: block;
+  margin: 1em 0;
+}
+
+//--------------------------------------------------------------------- MAIN BUTTONS
+
+.btn--primary {
+  background-color: #000;
+  border: 2px solid #000;
+  color: #fff;
+
+  padding: 0.5em 1em;
+  outline: none;
+}
+
+.btn--secondary {
+  background-color: transparent;
+
+  border: 2px solid #000;
+  color: #000;
+
+  padding: 0.5em 1em;
+  outline: none;
+}
+
+//--------------------------------------------------------------------- BUTTON STYLES
+
+.btn--success {
+  background-color: #10e517;
+  border: 2px solid #10e517;
+  color: white;
+
+  padding: 0.5em 1em;
+  outline: none;
+}
+
+.btn--warning {
+  background-color: #ff2a00;
+  border: 2px solid #ff2a00;
+  color: white;
+
+  padding: 0.5em 1em;
+  outline: none;
+}
+
+//--------------------------------------------------------------------- BUTTON SIZES
+
+.btn--small {
+  font-size: 14rem;
+}
+
+.btn--large {
+  font-size: 18rem;
+}
+
+//--------------------------------------------------------------------- BUTTON ICON
+
+.btn--icon {
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}

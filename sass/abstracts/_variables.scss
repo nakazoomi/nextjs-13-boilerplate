@@ -1,0 +1,26 @@
+:root {
+  accent-color: #4100ff;
+
+  // BG COLOR
+  --clr-bg-primary: #ffffff; // #2b2c5b // #020a38
+  --clr-bg-secondary: #c4b0ff;
+
+  // TEXT COLOR
+  --clr-text-black: #000;
+  --clr-text-white: #fff;
+  --clr-text-secondary: #aaaaaa;
+  --clr-text-placeholder: #808080;
+
+  // ID COLOR
+  --clr-id-primary: #4100ff;
+  --clr-id-secondary: #10003f;
+  --clr-id-accent: #7fff00;
+
+  // HOVER COLOR
+  --clr-hover-white: #f2f2f2;
+  --clr-hover-black: #212122;
+
+  // FILTER
+  --invert-1: invert(0);
+  --invert-0: invert(1);
+}

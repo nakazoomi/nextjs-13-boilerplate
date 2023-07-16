@@ -1,0 +1,57 @@
+//--------------------------------------------------------------------- BASE CSS STYLES
+
+* {
+  font-size: -apple-system, sans-serif;
+
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+
+  padding: 0;
+  margin: 0;
+
+  // outline: 3px solid chartreuse !important;
+}
+
+html {
+  font-size: 6.25% !important;
+}
+
+::selection {
+  color: #000;
+  background-color: yellow;
+}
+
+body {
+  font-family: 'Matter-Regular', sans-serif;
+  line-height: 1.5;
+
+  min-width: 300px;
+  margin: 0 auto;
+}
+
+header {
+  max-width: 1300px;
+  margin: 0 auto;
+
+  background-color: #ddd;
+}
+
+main {
+  max-width: 1300px;
+
+  padding: 1em 0;
+  margin: 0 auto;
+
+  background-color: #f2f2f2;
+}
+
+footer {
+  max-width: 1300px;
+  margin: 0 auto;
+
+  background-color: #ddd;
+}
+
+section {
+  width: 100%;
+}

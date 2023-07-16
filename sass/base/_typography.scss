@@ -1,0 +1,30 @@
+//--------------------------------------------------------------------- IMPORT FONTS
+
+@font-face {
+  font-family: 'Matter-Regular';
+  src: url('/fonts/Matter/WOFF2/Matter-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Matter-Medium';
+  src: url('/fonts/Matter/WOFF2/Matter-Medium.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Matter-SemiBold';
+  src: url('/fonts/Matter/WOFF2/Matter-SemiBold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Matter-Bold';
+  src: url('/fonts/Matter/WOFF2/Matter-Bold.woff2') format('woff2');
+}
+
+//--------------------------------------------------------------------- TYPOGRAPHY
+
+h1 {
+  font-family: 'Matter-Bold', sans-serif;
+  color: var(--clr-text-black);
+
+  font-size: 48rem;
+}
