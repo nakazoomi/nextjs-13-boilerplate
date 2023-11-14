@@ -1,0 +1,118 @@
+//--------------------------------------------------------------------- IMPORT FONTS
+
+@font-face {
+  font-family: 'Font-Regular';
+  // src: url('/fonts/Matter/WOFF2/Matter-Regular.woff2') format('woff2');
+  // src: url('/fonts/TTInterphasesPro/WOFF2/TTInterfaces-Regular.woff2');
+  //   format('woff2');
+
+  // src: url('/fonts/Axiforma/WOFF2/Axiforma-Regular.woff2') format('woff2');
+
+  src: url('/fonts/ProximaNova/WOFF2/ProximaNovaRegular.woff2') format('woff2');
+  // src: url('/fonts/Soehne/soehne-buch.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Font-Medium';
+  // src: url('/fonts/Matter/WOFF2/Matter-Medium.woff2') format('woff2');
+  src: url('/fonts/TTInterphasesPro/WOFF2/TTInterfaces-Medium.woff2');
+  //   format('woff2');
+  // src: url('/fonts/Axiforma/WOFF2/Axiforma-Regular.woff2') format('woff2');
+  // src: url('/fonts/GT-Walsheim/WOFF2/gt-walsheim-medium.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Font-SemiBold';
+  // src: url('/fonts/Matter/WOFF2/Matter-SemiBold.woff2') format('woff2');
+  src: url('/fonts/TTInterphasesPro/WOFF2/TTInterfaces-SemiBold.woff2');
+  //   format('woff2');
+  // src: url('/fonts/Axiforma/WOFF2/Axiforma-Regular.woff2') format('woff2');
+  // src: url('/fonts/GT-Walsheim/WOFF2/gt-walsheim-bold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Font-Bold';
+  // src: url('/fonts/Matter/WOFF2/Matter-Bold.woff2') format('woff2');
+  // src: url('/fonts/TTInterphasesPro/WOFF2/TTInterfaces-Bold.woff2')
+  //   format('woff2');
+  src: url('/fonts/ProximaNova/WOFF2/ProximaNovaBold.woff2') format('woff2');
+  // src: url('/fonts/Soehne/soehne-halbfett.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Font-ExtraBold';
+  src: url('/fonts/TTInterphasesPro/WOFF2/TTInterfaces-ExtraBold.woff2')
+    format('woff2');
+}
+
+@font-face {
+  font-family: 'Font-Black';
+  src: url('/fonts/TTInterphasesPro/WOFF2/TTInterfaces-Black.woff2')
+    format('woff2');
+}
+
+@font-face {
+  font-family: 'Font-SemiBold';
+  src: url('/fonts/TTInterphasesPro/WOFF2/TTInterfaces-SemiBold.woff2')
+    format('woff2');
+}
+
+//--------------------------------------------------------------------- TYPOGRAPHY
+
+p {
+  color: var(--clr-grey-500);
+}
+
+h1 {
+  font-family: 'Font-Bold', sans-serif;
+
+  // color: var(--clr-text-black);
+  color: var(--clr-id-secondary);
+
+  // font-size: 48rem;
+  font-size: 64rem;
+
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: 'Font-Bold', sans-serif;
+  color: var(--clr-grey-200);
+
+  font-size: 32rem;
+
+  margin: 1em 0;
+}
+
+h3 {
+  font-family: 'Font-Bold', sans-serif;
+  color: var(--clr-id-secondary);
+
+  font-size: 24rem;
+
+  margin: 1em 0;
+}
+
+h4 {
+  font-family: 'Font-Regular', sans-serif;
+  color: var(--clr-id-secondary);
+
+  font-size: 28rem;
+
+  margin: 1em 0;
+}
+
+h6 {
+  font-family: 'Font-Regular', sans-serif;
+  color: #000;
+
+  font-size: 18rem;
+  line-height: 1.25em;
+
+  margin: 1em 0;
+}
+
+button {
+  font-family: 'Font-Regular', sans-serif;
+  color: var(--clr-text-black);
+}

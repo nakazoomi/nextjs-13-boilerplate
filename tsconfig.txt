@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".", // This must be set for path aliases to work
+    "paths": {
+      "@/*": ["src/components/*"]
+    },
+    "target": "es5", // Specify ECMAScript target version
+    "module": "commonjs", // Specify module code generation
+    "lib": ["dom", "dom.iterable", "esnext"], // Specify library files to be included in the compilation
+    "allowJs": true, // Allow JavaScript files to be compiled
+    "skipLibCheck": true, // Skip type checking of declaration files
+    "esModuleInterop": true, // Enables compatibility with Babel/TypeScript default imports
+    "allowSyntheticDefaultImports": true, // Allow default imports from modules with no default export
+    "strict": true, // Enable all strict type-checking options
+    "forceConsistentCasingInFileNames": true, // Disallow inconsistently-cased references to the same file
+    "moduleResolution": "node", // Resolve modules using Node.js style
+    "resolveJsonModule": true, // Include modules imported with '.json' extension
+    "isolatedModules": true, // Ensure each file can be safely transpiled without relying on other imports
+    "noEmit": true, // Do not emit outputs (useful when using with bundlers like Webpack)
+    "jsx": "preserve", // Preserve JSX to be further transformed by Babel or another transpiler
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
+  },
+  "include": [
+    "src/**/*", // Include all files in the src directory
+    ".next/types/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules", // Exclude the node_modules directory
+    "**/*.spec.ts" // Exclude test files
+  ]
+}

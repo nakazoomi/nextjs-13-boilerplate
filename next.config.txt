@@ -1,0 +1,22 @@
+const path = require('path');
+
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) => {
+    config.resolve.alias['@'] = path.join(__dirname, 'src/');
+
+    // Add SASS loader
+    config.module.rules.push({
+      test: /\.scss$/,
+      use: [
+        'style-loader', // creates style nodes from JS strings
+        'css-loader', // translates CSS into CommonJS
+        'sass-loader', // compiles Sass to CSS
+      ],
+    });
+
+    return config;
+  },
+};
+
+module.exports = nextConfig;

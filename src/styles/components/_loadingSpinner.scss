@@ -1,0 +1,90 @@
+.loading-spinner__container {
+  position: fixed;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  top: 0;
+  left: 0;
+
+  width: 100vw;
+  height: 100vh;
+
+  background-color: #fff;
+}
+
+.loading-spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 200px;
+  height: 200px;
+  //   animation: loading-spinner__spin 2s linear infinite;
+}
+
+.spinner {
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+
+.dot {
+  position: absolute;
+  top: 50%;
+  width: 10px;
+  height: 10px;
+  background-color: #ed1c24;
+  border-radius: 50%;
+  animation-duration: 0.9s; /* Increased speed */
+  animation-timing-function: cubic-bezier(0.68, -0.55, 0.27, 1.55);
+  animation-iteration-count: infinite;
+}
+
+.dot1 {
+  left: 20%;
+  animation-name: move1;
+}
+
+.dot2 {
+  left: 50%;
+  animation-name: move2;
+  animation-delay: 0.1s;
+}
+
+.dot3 {
+  left: 80%;
+  animation-name: move3;
+  animation-delay: 0.2s;
+}
+
+@keyframes move1 {
+  0%,
+  100% {
+    left: 20%;
+  }
+  50% {
+    left: 80%;
+  }
+}
+
+@keyframes move2 {
+  0%,
+  100% {
+    left: 50%;
+  }
+  50% {
+    left: 20%;
+  }
+}
+
+@keyframes move3 {
+  0%,
+  100% {
+    left: 80%;
+  }
+  50% {
+    left: 50%;
+  }
+}

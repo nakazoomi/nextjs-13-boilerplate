@@ -1,0 +1,85 @@
+button {
+  display: block;
+  margin: 1em 0;
+}
+
+//--------------------------------------------------------------------- MAIN BUTTONS
+
+.btn--primary {
+  background-color: var(--clr-id-primary);
+  border: 2px solid var(--clr-id-primary);
+
+  font-size: 18rem;
+  color: #fff;
+
+  // min-width: 220px;
+  border-radius: var(--border-radius);
+
+  padding: 1em 2em;
+  outline: none;
+}
+
+.btn--secondary {
+  background-color: transparent;
+  // background-color: var(--clr-grey-200);
+  border: none;
+  border: 2px solid var(--clr-id-primary);
+  // border: 2px solid var(--clr-id-secondary);
+
+  font-size: 16rem;
+  font-weight: 800;
+  color: var(--clr-id-primary);
+  // color: var(--clr-id-secondary);
+
+  // min-width: 220px;
+  border-radius: var(--border-radius);
+
+  padding: 1em 2em;
+  outline: none;
+}
+
+//--------------------------------------------------------------------- BUTTON STYLES
+
+.btn--success {
+  background-color: #71e510;
+  border: 2px solid #71e510;
+
+  color: white;
+
+  border-radius: var(--border-radius);
+
+  padding: 0.5em 1em;
+  outline: none;
+}
+
+.btn--warning {
+  background-color: #ff0048;
+  border: 2px solid #ff0048;
+  color: white;
+
+  border-radius: var(--border-radius);
+
+  padding: 0.5em 1em;
+  outline: none;
+}
+
+//--------------------------------------------------------------------- BUTTON SIZES
+
+.btn--small {
+  font-size: 14rem;
+  min-width: 120px;
+}
+
+.btn--large {
+  font-size: 18rem;
+
+  border-radius: var(--border-radius);
+}
+
+//--------------------------------------------------------------------- BUTTON ICON
+
+.btn--icon {
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}

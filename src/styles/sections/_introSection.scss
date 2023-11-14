@@ -1,0 +1,126 @@
+//--------------------------------------------------------------------- INTRO SECTION
+
+#intro-section__container {
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  background-color: var(--clr-grey-200);
+
+  // height: calc(100vh - 100px);
+  height: 100vh;
+  background-image: url(/images/web-backround_cirlce-2000px.webp);
+  background-size: 155%;
+  background-repeat: repeat-x;
+  background-position: center;
+
+  p {
+    color: var(--clr-id-secondary);
+  }
+}
+
+// #intro-section__wrapper {
+// }
+
+.slider__container {
+  margin: 0;
+
+  // h5 {
+  //   margin-bottom: 1rem;
+  //   text-align: center;
+  //   font-size: 32rem;
+  // }
+}
+
+.slider__wrapper {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr;
+
+  margin: 0;
+  padding: 0;
+
+  gap: 50px;
+  height: 500px;
+}
+
+.slick-slider {
+  position: unset !important;
+}
+
+.slick-dots {
+  position: unset !important;
+}
+
+.slider__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.slider__heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 1em;
+}
+
+.slider__sub-heading {
+  margin-bottom: 2em;
+}
+
+.slider__image {
+  position: relative;
+  max-width: 100%;
+
+  img {
+    object-fit: contain;
+    mix-blend-mode: multiply;
+  }
+}
+
+.slick-dots li button::before {
+  font-size: 12px;
+}
+
+.slick-prev2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+  height: 80px;
+  width: 80px;
+  // background-color: var(--clr-id-primary);
+
+  position: absolute;
+  top: 50%;
+  left: 0;
+  z-index: 1000;
+
+  filter: invert(92%) sepia(13%) saturate(68%) hue-rotate(169deg)
+    brightness(101%) contrast(85%);
+}
+
+.slick-next2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+  height: 80px;
+  width: 80px;
+  // background-color: var(--clr-id-primary);
+
+  position: absolute;
+  top: 50%;
+  right: 0;
+  z-index: 1000;
+
+  filter: invert(92%) sepia(13%) saturate(68%) hue-rotate(169deg)
+    brightness(101%) contrast(85%);
+}

@@ -1,0 +1,30 @@
+// ------------------------------------------------------------------------- IMPORT CSS STYLES
+
+// Base
+@use 'src/styles/base/base';
+@use 'src/styles/base/reset';
+@use 'src/styles/base/typography';
+@use './styles/base/_variables.scss';
+
+// Components
+@use 'src/styles/components/buttons';
+@use 'src/styles/components/modal';
+@use 'src/styles/components/loadingSpinner';
+@use 'src/styles/components/contactForm';
+@use 'src/styles/components/priceCards';
+
+// Layout
+@use 'src/styles/layout/header';
+@use 'src/styles/layout/footer';
+@use 'src/styles/layout/layout';
+@use 'src/styles/layout/forms';
+
+// Pages
+@use 'src/styles/pages/home';
+@use 'src/styles/pages/error404';
+
+// Sections
+@use 'src/styles/sections/productSection';
+@use 'src/styles/sections/introSection';
+@use 'src/styles/sections/contactSection';
+@use 'src/styles/sections/priceSection';

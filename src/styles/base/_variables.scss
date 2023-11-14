@@ -1,0 +1,44 @@
+// Check #1a1423;
+
+:root {
+  accent-color: #4100ff;
+
+  // ID COLOR
+  --clr-id-primary: #eb5849;
+  --clr-id-secondary: #2a2e3a;
+  --clr-id-accent: #f0f0f0;
+
+  // GRAYSCALE
+  --clr-grey-100: #f8f9fa;
+  --clr-grey-200: #e9ecef;
+  --clr-grey-300: #dee2e6;
+  --clr-grey-400: #ced4da;
+  --clr-grey-500: #adb5bd;
+  --clr-grey-600: #6c757d;
+  --clr-grey-700: #495057;
+  --clr-grey-800: #343a40;
+  --clr-grey-900: #212529;
+
+  // TEXT COLOR
+  --clr-text-black: #000;
+  --clr-text-white: #fff;
+  --clr-text-secondary: #aaaaaa;
+  --clr-text-placeholder: #808080;
+
+  // BG COLOR
+  --clr-bg-primary: #ffffff;
+
+  // HOVER COLOR
+  --clr-hover-white: #f2f2f2;
+  --clr-hover-black: #212122;
+
+  // FILTER
+  --filter-invert-1: invert(0);
+  --filter-invert-0: invert(1);
+
+  // BORDER RADIUS
+  --border-radius: 50px;
+
+  // LAYOUT WIDTH
+  --layout-width: 1100px;
+}
